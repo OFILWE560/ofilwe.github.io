@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>games.html</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('images/istock.jpg');
+              background-size: cover;
+              background-repeat: repeat;
+            }
+            .slider{
+                position: absolute;
+                max-width: 1200px;
+                overflow: hidden;
+                margin-top: 100px;
+                margin-left: 150px;
+            }
+            .row h1 {
+               position: absolute;
+               text-align: center;
+               margin-top: 5px;
+               margin-left: 5px;
+               font-family: 'Gill Sans MT'; 
+               color: #fff;
+            }  
+            .row {
+                margin-top: 650px;
+                margin-left: 10px;
+                margin-right: 10px;
+                position: absolute;
+               
+            } 
+            .column {
+                margin: 10px;
+                margin-top: 50px;
+                float: left;
+            }
+            .column p {
+                text-align: center;
+                font-size: medium;
+                color: #fff;
+            }
+            .row h2 {
+                position: absolute;
+                margin-top: 350px;
+                margin-left: 5px;
+                font-family: 'Gill Sans MT'; 
+                color: #fff;
+            }
+            .gallery {
+                margin: 5px;
+                margin-top: 60px;
+                
+            }
+            .gallery p {
+                text-align: center;
+                font-size: medium;
+                color: #fff;
+            }
+            .row4 {
+                margin-top: 400px;
+                margin-left: 10px;
+                margin-right: 5px;
+                position: absolute;
+            } 
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="#"><img src="wb-banner.jpg"></a>
+        </div>
+        <div class="box-area">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="#">WARNER BROS</a>
+                    </div>
+                    <nav>
+                        <a href="index.html"><i class="fas fa-Home"></i>HOME</a>
+                        <a href="movies.html">MOVIES</a>
+                        <a href="tv_shows.html">TV_SHOWS</a>
+                        <a href="games.html">GAMES & APPS</a>
+                        <a href="collections.html">COLLECTIONS</a>
+                    </nav>
+                </div>
+                
+            </header>
+        </div>
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+
+                <img src="images/wbros100.jpeg" class="m1" alt="img1">
+                <img src="images/Marquee.avif" class="m2" alt="img2">
+                <img src="images/Marquee.avif" class="m3" alt="img3">
+                <img src="images/wbros100.jpeg" class="m4" alt="img4">
+            </div>
+            <div class="dots"> 
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+            </div>
+        </div>   
+        <div class="row">
+            <h1>VIDEO GAMES</h1>
+            <div class="column">
+                <a href="https://lswtss-ttg15.warnerbrosgames.com/en-us">
+                <img src="images/star.jpg" height=250 width=200>
+            </a>
+                <p>STAR WARS</p>
+            </div>
+            <div class="column">
+                <a href="https://www.warnerbros.com/games-and-apps/injustice-gods-among-us">
+                <img src="images/injustice.jpg" height=250 width=200>
+            </a>
+                <p>INJUSTICE</p>
+            </div>
+            <div class="column">
+                <a href="https://www.warnerbros.com/games-and-apps/mortal-kombat-xl">
+                <img src="images/kombat.jpg" height=250 width=200>
+            </a>
+                <p>MORTAL KOMBAT</p>
+            </div>
+            <div class="column">
+                <a href="#">
+                <img src="images/fortnite.jpg" height=250 width=200>
+            </a>
+                <p>FORTNITE</p>
+            </div>
+            <div class="column">
+                <a href="https://www.warnerbros.com/games-and-apps/hitman-2">
+                <img src="images/hitman2.jpg" height=250 width=200>
+            </a>
+                <p>HITMAN 2</p>
+            </div>
+            <div class="column">
+                <a href="https://www.warnerbros.com/games-and-apps/injustice-2">
+                <img src="images/injustice22.jpg" height=250 width=200>
+            </a>
+                <p>INJUSTICE 2</p>
+            </div>    
+            <div class="row4">
+                <h1>MOBILE GAMES & APPS</h1>
+                <div class="column">
+                    <a href="https://www.warnerbros.com/games-and-apps/injustice-2-0">
+                    <img src="images/injustice2.jpg" height=250 width=200>
+                </a>
+                    <p>INJUSTICE</p>
+                </div>
+                <div class="column">
+                    <a href="https://www.warnerbros.com/games-and-apps/dc-universe-infinite">
+                    <img src="images/infinite.png" height=250 width=200>
+                </a>
+                    <p>DC UNIVERSE INFINITE</p>
+                </div>
+                <div class="column">
+                    <a href="#">
+                    <img src="images/incredible.jpg" height=250 width=200>
+                </a>
+                    <p>THE INCREDIBLES GAME</p>
+                </div>
+                <div class="column">
+                    <a href="#">
+                    <img src="images/hitman.jpg" height=250 width=200>
+                </a>
+                    <p>HITMAN</p>
+                </div>
+                <div class="column">
+                    <a href="https://www.warnerbros.com/movies/black-adam">
+                    <img src="images/lego.jpg" height=250 width=200>
+                </a>
+                    <p>THE LEGO MOVIE GAME</p>
+                </div>
+            </div>   
+    </body>
+
+</html>

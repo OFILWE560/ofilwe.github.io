@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsets="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+        <title>collections.html</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('images/istock.jpg');
+              background-size: cover;
+              background-repeat: repeat;
+            }
+            .slider{
+                position: absolute;
+                max-width: 1200px;
+                overflow: hidden;
+                margin-top: 100px;
+                margin-left: 150px;
+            }
+            .row h1 {
+               position: absolute;
+               text-align: center;
+               margin-top: 5px;
+               margin-left: 5px;
+               font-family: 'Gill Sans MT'; 
+               color: #fff;
+            }  
+            .row {
+                margin-top: 650px;
+                margin-left: 10px;
+                margin-right: 10px;
+                position: absolute;
+               
+            } 
+            .column {
+                margin: 20px;
+                margin-top: 50px;
+                float: left;
+            }
+            .column p {
+                text-align: center;
+                font-size: medium;
+                color: #fff;
+            }
+            .row h2 {
+                position: absolute;
+                margin-top: 350px;
+                margin-left: 5px;
+                font-family: 'Gill Sans MT'; 
+                color: #fff;
+            }
+            .gallery {
+                margin: 20px;
+                margin-top: 60px;
+                float: left;
+            }
+            .gallery p {
+                text-align: center;
+                font-size: medium;
+                color: #fff;
+            }
+            .column a:hover {
+                color: rgb(116, 166, 202);
+                background-color: transparent;
+                text-decoration: underline;
+                letter-spacing: 2px;
+                text-decoration: blue;
+            }.footer
+{
+    height: 50px;
+    margin-top: 70px;
+    margin-left: -60px;
+}
+.footer-container
+{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons
+{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #272626;
+    margin: 10px;
+    border-radius: 50px;
+}
+.socialicons a i
+{
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.9;
+}
+.socialicons a:hover
+{
+    background-color: azure;
+    transition: 0.5;
+}
+.socialicons a:hover i
+{
+    color: #080808;
+    transition: 0.5;
+}
+.footerNav
+{
+    margin: 30px 0;
+}
+.footerNav ul
+{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li
+{
+    color: #000eaf;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li:hover
+{
+    opacity: 1;
+}
+.footer-bottom
+{
+    background-color: #080808;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+}
+.footer-bottom p
+{
+    color: #272626;
+    text-align: center;
+    margin-top: -5px;
+}
+.designer
+{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px)
+{
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="#"><img src="wb-banner.jpg"></a>
+        </div>
+        <div class="box-area">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="#">WARNER BROS</a>
+                    </div>
+                    <nav>
+                        <a href="index.html"><i class="fas fa-Home"></i>HOME</a>
+                        <a href="movies.html">MOVIES</a>
+                        <a href="tv_shows.html">TV_SHOWS</a>
+                        <a href="games.html">GAMES & APPS</a>
+                        <a href="collections.html">COLLECTIONS</a>
+                    </nav>
+                </div>
+                
+            </header>
+            <section>
+        </div>
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+
+                <img src="images/wbros100.jpeg" class="m1" alt="img1">
+                <img src="images/collections.jpg" class="m2" alt="img2">
+                <img src="images/collections.jpg" class="m3" alt="img3">
+                <img src="images/wbros100.jpeg" class="m4" alt="img4">
+            </div>
+            <div class="dots"> 
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+            </div>
+        </div>  
+        <div class="row">
+            <h1>EXPLORE OUR COLLECTIONS</h1>
+            <div class="column">
+                <a href="animation.html">
+                <img class="icon" src="images/scooby.jpg" height=250 width=200>
+                <p>FAMILY FAVOURITES</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="tv_shows.html">
+                <img class="icon" src="images/allen.webp" height=250 width=200>
+                <p>BINGE WORTHY</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="movies.html">
+                <img class="icon" src="images/corn.jpg" height=250 width=200>
+                <p>FOR MOVIE NIGHTS</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="movies.html">
+                <img class="icon" src="images/theater.jpg" height=250 width=200>
+                <p>IN THEATERS</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="fantasy.html">
+                <img class="icon" src="images/harry.webp" height=250 width=200>
+                <p>ADVENTURES</p>
+                </a>
+            </div>
+        </div>
+          
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="socialicons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-googler-plus"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright & copy; 2022; Designed by <span class="designer">Ofilwe Gabaitse</span></p>
+                </div>
+                </div>
+
+        </footer>
+    </section>
+    </body>
+
+</html>
